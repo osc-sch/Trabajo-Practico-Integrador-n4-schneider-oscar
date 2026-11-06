@@ -9,5 +9,6 @@ const sumar = (a:number,b:number) =>{ // * recibe solo numeros
 saludar("Oscar") //* BIEN
 // saludar(25) //! MAL
 
-sumar(5,10) //* BIEN
 // sumar("jose", "perez") //! MAL
+let resultado = sumar(5, 10) //* BIEN
+console.log(resultado)
