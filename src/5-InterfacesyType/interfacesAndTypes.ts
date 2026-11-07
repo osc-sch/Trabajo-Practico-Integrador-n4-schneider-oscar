@@ -51,3 +51,8 @@ const usuario5: Usuario2 = {//con la propiedad opcional
     email: "oscar@gmail.com",
     telefono:370498756
 }
+
+console.log("### propiedades obligatorias ###")
+console.log(usuario3)
+console.log("### propiedades opcionales ###")
+console.log(usuario5)

@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "TypeScript es un superconjunto de JavaScript desarrollado por Microsoft, superconjunto quiere quiere decir que incluye todas las funcionalidades de javaScript y le añade otras nuevas funcionalidades.\r ### ¿Qué diferencias tiene con JavaScript?",
   "main": "app.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "tema1": "tsx ./src/1-TiposDeDatos/tiposDeDatos.ts",
+  "tema2": "tsx ./src/2-TiposDeArrays/tiposDeArrays.ts",
+  "tema3": "tsx ./src/3-TipoUnionyAny/unionAndAny.ts",
+  "tema4": "tsx ./src/4-Funciones/funciones.ts",
+  "tema5": "tsx ./src/5-InterfacesyType/interfacesAndTypes.ts",
+  "tema6": "tsx ./src/6-enumyType/enumAndType.ts",
+  "check": "tsc --noEmit"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/osc-sch/Trabajo-Practico-Integrador-n4-schneider-oscar.git"
