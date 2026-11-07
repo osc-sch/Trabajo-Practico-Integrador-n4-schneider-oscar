@@ -20,3 +20,34 @@ const usuario1: Usuario = {
 //   nombre: "jose",
 //   activo: true
 // };
+
+// ------------ Type Alias -----------------
+
+type Estado = "activo" | "inactivo" | "suspendido";
+
+let estadoUsuario: Estado = "activo";
+
+estadoUsuario = "suspendido"; // Correcto
+// estadoUsuario = "eliminado";  // Error
+
+// --------------------- propiedades opcionales ------------------
+
+interface Usuario2 {
+  id: number;
+  nombre: string;
+  email: string;
+  telefono?:number
+}
+
+const usuario3: Usuario2={ //solo la propiedades obligatorias
+    id: 10,
+    nombre: "Oscar",
+    email: "oscar@gmail.com",
+}
+
+const usuario5: Usuario2 = {//con la propiedad opcional
+    id: 10,
+    nombre: "Oscar",
+    email: "oscar@gmail.com",
+    telefono:370498756
+}
